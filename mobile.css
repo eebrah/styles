@@ -1,0 +1,190 @@
+
+div.wrapper {
+	padding: 0.5em;
+
+}
+
+div.body {
+	clear: both;
+	
+	padding: 1em 0;
+
+}
+
+div.nav {
+	margin: 0;
+
+}
+
+div.nav {
+	width: 10em;
+
+	float: left;
+	position: fixed;
+
+	left: -11em;
+	height: 100%;
+	
+	opacity: 1;
+
+	transition: left 1s; 
+	
+	text-align: right;
+	
+	padding: 1em;
+
+}
+
+div.nav:hover {
+	left: 0;
+
+	opacity: 1;
+
+}
+
+div.nav ul li {
+	display: block;
+
+	margin: 2em 0;
+
+}
+
+div.nav ul li ul {
+	display: block;
+
+}
+
+div.nav ul li ul li {
+	margin: 1em 0;
+
+}
+
+
+.dialog {
+	box-shadow: none;
+	border: 1px solid #999999;
+	
+}
+/*
+.dialog fieldset.info {
+	height: 3em;
+	overflow: hidden;
+
+} 
+
+.dialog fieldset.info:hover {
+	height: auto;
+	overflow: visible;
+
+}
+*/
+table.fancy ul li {
+	display: inline;
+	
+	margin: 1em 0;
+
+}
+
+table.pretty {
+	width: 100%;
+
+}
+
+fieldset.buttons button, div.card button {
+	width: calc( 100% - 3em );
+	
+	margin: 0.5em auto;
+	padding: 1em 1.5em;
+	
+	font-size: 1em;
+
+}
+
+fieldset.buttons button[ type="reset" ] {
+	padding: 0.5em 1.5em;
+
+}
+
+fieldset.buttons {
+	padding: 0;
+
+}
+
+div.body table.fancy {
+	width: 90%;
+
+}
+
+div.body table.fancy thead {
+	display: none;
+
+}
+
+div.body table.fancy tr {
+	display: block;
+	
+	border: 1px solid #999999;
+	border-bottom: none;
+	
+/*	box-shadow: 0.2em 0.2em 0.5em #999; */
+
+}
+
+div.body table.fancy tr:last-child {
+	border-bottom: 1px solid #999999;
+
+}
+
+div.body table.fancy tr td {
+	display: block;
+	text-align: right;
+	
+	padding: 0.5em;
+	border-bottom: 1px dotted #cccccc;
+
+}
+
+div.body table.fancy tr td:last-child {
+	border-bottom: none;
+
+}
+
+div.body table.fancy tr td:empty {
+	display: none;
+
+}
+
+div.body table.fancy tr td:before {
+	content: attr(data-label);
+	float: left;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+}
+
+div.body table.fancy tbody tr td:first-child {
+	display: none;
+
+}
+
+div.card input, div.card label, div.card button {
+	display: block;
+
+}
+
+div.card label {
+	margin: 0.5em 0;
+	
+}
+
+div.card input {
+	width: calc( 100% - 2em );
+
+}
+
+div.card button {
+	margin-top: 1em;
+	padding: 0.5em 0;
+	
+	width: 100%;
+	
+}

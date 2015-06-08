@@ -1,0 +1,330 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+
+body {
+	background-color: white;
+	color: black;
+	
+	font-family: sans-serif;
+
+}
+
+div.wrapper {
+	padding: 1em;
+
+}
+
+div.body {
+	clear: both;
+	
+	padding: 1em;
+
+}
+
+div.header {
+
+}
+
+div.nav {
+	margin: 0;
+	padding: 0.5em 1em;
+	background-color: navy;
+	color: white;
+
+}	
+
+div.nav a {
+	text-decoration: none;
+	
+	color: white;
+	background-color: navy;
+	
+	padding: 0.5em 1em;
+
+}
+
+div.nav a:hover {
+	color: navy;
+	background-color: white;
+
+}
+
+table.pretty {
+	border-collapse: collapse;
+
+}
+
+table.pretty tbody th {
+	text-align: right;
+
+}
+
+table.pretty tbody tr td, table.pretty tbody th {
+	padding: 0.4em 1em;
+	
+	border-top: 1px solid #999999;
+
+}
+
+table.pretty tbody tr:last-of-type {
+	border-bottom: 1px solid #999999;
+
+}
+
+table.pretty tbody tr:nth-of-type( 2n ) {
+	background-color: #E5E5FF;
+
+}
+
+table.fancy {
+	border-collapse: collapse;
+	
+	margin: 1em;
+	padding: 1em;
+
+}
+
+table.fancy thead, table.fancy tfoot {
+	background-color: navy;
+	color: white;
+
+}
+
+table.fancy th {
+	padding: 0.5em 1em;
+	font-weight: normal;
+
+}
+
+table.fancy tbody {}
+
+table.fancy tbody tr:nth-of-type( 2n ) {
+	background-color: #E5E5FF;
+
+}
+
+table.fancy tbody tr:hover {
+	background-color: #FFCE75;
+
+}
+
+table.fancy tbody td {
+	padding: 0.4em 1em;
+
+}
+
+table.fancy ul {
+	list-style: none;
+
+}
+
+table.fancy ul li {
+	display: inline;
+
+}
+
+table.fancy ul li a {
+	text-decoration: none;
+	
+	background-color: navy;
+	color: white;
+
+	font-size: 1em;
+	font-weight: normal;
+	
+	padding: 0.2em 1em;
+	
+	border-radius: 0.2em;
+
+}
+
+.numeric {
+	text-align: right;
+
+}
+
+.dialog {
+	box-shadow: 0 0 0.5em #999999;
+	border-radius: 0.3em;
+	
+	padding-bottom: 0.5em;
+	max-width: 600px;	
+	margin: 1em auto;
+
+}
+
+fieldset {
+	border: none;
+
+}
+
+fieldset.info {
+	border: 1px solid grey;
+	
+	width: 96%;
+	margin: 2em auto 1em;
+
+}
+
+fieldset.info div.row:last-of-type {
+	padding-bottom: 2em;
+
+}
+
+div.dialog h3:first-of-type {
+	width: auto;
+	
+	padding: 0.5em 2%;
+	margin: 0;
+	
+	color: white;
+	background-color: navy;
+	
+	border-top-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+
+	font-size: 1em;
+	font-weight: normal;
+
+}
+
+fieldset.info legend, .legend { 
+	width: auto;
+	
+	padding: 0.5em 2%;
+	margin: -1em 2% 0 0;
+	
+	color: white;
+	background-color: navy;
+	
+	float: right;
+	
+}
+
+fieldset.info div.row {
+	padding: 1em 1em 0.5em;
+
+}
+
+fieldset.info div.row:nth-of-type( 2n ) {
+	background-color: #E5E5FF;
+
+}
+
+fieldset.info label {
+	display: block;
+	
+	margin-bottom: 0.5em;
+
+}
+
+fieldset.info textarea, fieldset.info input {
+	width: calc( 100% - 2em );
+	
+}
+
+fieldset.info select {
+	width: 100%;
+	padding: 0.4em 0;
+
+}
+
+fieldset.info textarea, fieldset.info input, div.card input {
+	border: 1px solid #999999;
+	
+	padding: 0.4em 1em 0.4em;
+	border-radius: 0.2em;
+	
+	font-family: sans-serif;
+	font-size: 0.9em;
+
+}
+
+fieldset.buttons {
+	padding: 0;
+	
+	text-align: center;
+
+}
+
+fieldset.buttons button, a.button, div.card button {
+	padding: 0.3em 1.5em 0.4em;
+	margin: 0 5%;
+	
+	background-color: navy;
+	color: white;
+	
+	border: none;
+	border-radius: 0.2em;
+	
+	font-size: 1em;
+	
+	text-decoration: none;
+	text-transform: lowercase;
+
+}
+
+fieldset.buttons button[ type="reset" ], a.negative {
+	background-color: red;
+
+}
+
+fieldset.buttons button {
+	margin: 0.5em 1%;
+	padding: 0.7em;
+	
+	width: 46%;
+
+}
+
+.dialog p {
+	margin: 1em;
+	
+}
+
+span.message {
+	display: block;
+	padding: 0.5em 0.5em 0;
+	
+	font-size: 0.8em;
+
+}
+
+.overlay {
+	display: none;
+
+}
+
+.overlay_active {
+	display: block;
+	
+	background-color: black;
+	opacity: 0.3;
+	
+	position: absolute;
+	
+	top: 0; 
+	left: 0;
+	
+	width: 100%;
+	height: 100%;
+
+}
+
+div.card {
+	padding: 1em;
+	box-shadow: 0.3em 0.3em 0.5em #999999;
+	
+	margin: 1em;
+
+}
+
+div.card legend {
+	font-weight: bold;
+	margin: 0.5em 0;
+
+}
